@@ -1,0 +1,27 @@
+{
+  "positive_test_cases": [
+    {
+      "test_name": "Logs in with correct email and password",
+      "email": "test@gmail.com",
+      "pass": "12345678",
+      "username": "Test User"
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "test_name": "Logs in with empty email",
+      "email": "{enter}",
+      "pass": "12345678"
+    },
+    {
+      "test_name": "Logs in with empty password",
+      "email": "test@gmail.com",
+      "pass": "{enter}"
+    },
+    {
+      "test_name": "Logs in with empty email and password",
+      "email": "{enter}",
+      "pass": "{enter}"
+    }
+  ]
+}
